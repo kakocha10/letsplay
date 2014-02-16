@@ -60,3 +60,6 @@ a
 .header form {
     float:right;
 }
+    sportInput {
+        width: 100px;
+    }
