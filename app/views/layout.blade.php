@@ -7,7 +7,7 @@
     </style>
 <link rel="stylesheet" href="<?php echo asset('css/layout.css')?>" type="text/css"> 
         <title>
-            Tutorial
+            Go
         </title>
     </head>
     <body>
