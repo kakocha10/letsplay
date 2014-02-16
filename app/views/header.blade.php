@@ -1,7 +1,7 @@
 @section("header")
     <div class="header">
         <div class="container">
-            <h1 style="float:left;">Tutorial</h1>
+            <h1 style="float:left;">Go</h1>
             <span style="float:right;">
             @if (Auth::check())
                 {{ HTML::link('logout', 'Logout') }}
