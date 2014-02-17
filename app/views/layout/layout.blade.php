@@ -5,18 +5,19 @@
             <style type="text/css" title="currentStyle">
         @import "./css/layout.css";
     </style>
+    <script type="text/javascript" src="<?php echo asset('js/jquery.js')?>"></script>
 <link rel="stylesheet" href="<?php echo asset('css/layout.css')?>" type="text/css"> 
         <title>
             Go
         </title>
     </head>
     <body>
-        @include("header")
+        @include("layout.header")
         <div class="content">
             <div class="container">
                 @yield("content")
             </div>
         </div>
-        @include("footer")
+        @include("layout.footer")
     </body>
 </html>

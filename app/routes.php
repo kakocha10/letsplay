@@ -15,3 +15,11 @@ Route::get('/', function()
 {
 	return View::make('search');
 });
+
+Route::post('/submitSearch', function()
+{
+	$sportInput = Input::get('sport');
+	$locationInput = Input::get('location');
+
+	return View::make('searchResults')->with(array('sport' => $sportInput, 'location' => $locationInput,));
+});
